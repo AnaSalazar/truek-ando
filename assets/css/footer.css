@@ -1,0 +1,11 @@
+.container-footer {
+  width: 100%;
+  display: flex;
+}
+
+
+.iconosFooter {
+  border: 3px solid white;
+  border-radius: 100%;
+  padding: 5px;
+}

@@ -19,9 +19,11 @@
         <nav>
           <img src="" alt="" class="nav-logo">
           <section class="nav-name-items">
+
             <span class="nav-item">Dani</span>
             <i id="iconoOpcionesPerfil" class="nav-item fa fa-user-plus" aria-hidden="true"></i>
             <i id="iconoNuevaPublicacion" class="nav-item fa fa-plus" aria-hidden="true"></i>
+
           </section>
         </nav>
       </section>
@@ -36,7 +38,7 @@
       </section>
 
       <section  class="new-post">
-        <section id="seccionNuevaPublicacion" class="new-post-container">
+        <section id="seccionNuevaPublicacion" class="new-post-container"
           <input type="text" name="" value="Titulo">
           <input type="text" name="" value="Imagen">
           <textarea name="name" rows="8" cols="80"></textarea>
@@ -51,7 +53,13 @@
           <button type="button" name="button">enviar</button>
         </section>
       </section>
+
+      <section id="publicacionEnviada" class="nav-name-items new-post-container realizado">
+        <p>Realizado</p>
+      </section>
     </header>
+
+
 
     <section class="profile-data">
       <section class="pic-container profile-item">
@@ -135,24 +143,34 @@
         </h3>
       </section>
       <section class="misposts-imgs">
-        <img src="assets/imagenes/prod01.jpg" class="misposts-item">
-        <img src="assets/imagenes/prod02.jpg" class="misposts-item">
-        <img src="assets/imagenes/prod03.jpg" class="misposts-item">
-        <img src="assets/imagenes/prod04.jpg" class="misposts-item">
-        <img src="assets/imagenes/prod05.jpg" class="misposts-item">
-        <img src="assets/imagenes/prod01.jpg" class="misposts-item">
-        <img src="assets/imagenes/prod02.jpg" class="misposts-item">
-        <img src="assets/imagenes/prod03.jpg" class="misposts-item">
-        <img src="assets/imagenes/prod04.jpg" class="misposts-item">
-        <img src="assets/imagenes/prod05.jpg" class="misposts-item">
+        <div id="visible">
+          <img src="assets/imagenes/prod01.jpg" class="misposts-item">
+          <img src="assets/imagenes/prod02.jpg" class="misposts-item">
+          <img src="assets/imagenes/prod03.jpg" class="misposts-item">
+        </div>
+        <div id="no-visible">
+          <img src="assets/imagenes/prod04.jpg" class="misposts-item">
+          <img src="assets/imagenes/prod05.jpg" class="misposts-item">
+          <img src="assets/imagenes/prod01.jpg" class="misposts-item">
+        </div>
       </section>
       <section class="misposts-subs">
+
         <i class="fa fa-bolt" aria-hidden="true"></i>
       </section>
     </section>
 
     <footer>
-
+      <section class="container-footer">
+        <section class="">
+  				<i class="fa fa-dribbble fa-1x iconosFooter"></i>
+  				<i class="fa fa-facebook fa-1x iconosFooter" aria-hidden="true"></i>
+  				<i class="fa fa-linkedin fa-1x iconosFooter" aria-hidden="true"></i>
+  				<i class="fa fa-twitter fa-1x iconosFooter" aria-hidden="true"></i>
+  				<i class="fa fa-google-plus fa-1x iconosFooter" aria-hidden="true"></i>
+  			</section>
+        <span>Copyright © MovimientoCacao 2017</span>
+      </section>
     </footer>
 
     <script src="assets/js/app.js" type="text/javascript"></script>
