@@ -34,7 +34,7 @@ function enviarNuevaPublicacion() {
 
      seccionNuevaPublicacion.style.display = "none";
      publicacionEnviada.style.display = "flex";
-     setTimeout(function(){publicacionEnviada.style.display = "none";}, 1000);
+     setTimeout(function(){publicacionEnviada.style.display = "none";}, 2000);
 }
 
 function cambiarMisImagenesPosts() {
