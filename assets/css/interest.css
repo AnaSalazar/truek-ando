@@ -1,0 +1,22 @@
+.interest-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.interest-item {
+  border-radius: 20px;
+}
+
+.interest-paragraph {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: 20px 150px 50px 150px;
+}
+
+.interest-paragraph > button {
+  width: 10%;
+  margin-top: 15px;
+}
