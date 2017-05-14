@@ -3,3 +3,7 @@ body {
   margin: 0;
   font-family: "heebo", sans-serif;
 }
+
+span {
+  font-size: 12px;
+}

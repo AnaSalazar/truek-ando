@@ -29,21 +29,32 @@
 
 .reputation-container {
   display: flex;
+  width: 100%;
   justify-content: center;
+  padding: 20px 0;
 }
 
 .stars-container, .badges-container {
   display: flex;
+  width: 100%;
   flex-direction: column;
-}
-
-.stars-img-container, .badges-img-container {
-  display: flex;
   align-items: center;
 }
 
+.badges-img-container {
+  display: flex;
+  width: 100%;
+}
+
+.fa-star {
+  margin: 6px;
+}
+
 .badge-img {
-  width: 6%;
+  width: 10%;
+  height: 10%;
+  justify-content: center;
+  margin: 0 6px;
 }
 
 .h2-title {

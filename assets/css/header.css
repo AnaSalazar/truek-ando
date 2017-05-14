@@ -14,6 +14,8 @@ nav {
 
 .nav-item {
   padding: 15px 10px;
+  font-size: 15px;
+  font-weight: 900;
 }
 
 .new-post-container, .new-coment-container, .options-profile-container {

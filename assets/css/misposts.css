@@ -1,0 +1,12 @@
+.misposts-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.misposts-item {
+ border-radius: 180px;
+ padding: 15px;
+}
