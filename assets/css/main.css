@@ -1,4 +1,4 @@
 body {
-  display: flex;
-  box-sizing: content-box;
+  box-sizing: border-box;
+  margin: 0;
 }
