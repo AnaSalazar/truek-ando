@@ -1,0 +1,19 @@
+.explora-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+.explora-col {
+  display: flex;
+  justify-content: space-around;
+}
+
+.explora-item {
+  border-radius: 180px;
+  width: 10%;
+  height: 10%;
+  padding: 10px;
+}
