@@ -1,8 +1,10 @@
 var iconoOpcionesPerfil = document.getElementById("iconoOpcionesPerfil");
 var iconoNuevaPublicacion = document.getElementById("iconoNuevaPublicacion");
+var botonEnviarPublicacion = document.getElementById("botonEnviarPublicacion")
 
 iconoOpcionesPerfil.addEventListener("click", mostrarOpcionesPerfil);
 iconoNuevaPublicacion.addEventListener("click", mostrarNuevaPublicacion);
+botonEnviarPublicacion.addEventListener("click", enviarNuevaPublicacion);
 
 function mostrarOpcionesPerfil() {
   var seccionOpcionesPerfil = document.getElementById("seccionOpcionesPerfil");
@@ -22,4 +24,12 @@ function mostrarNuevaPublicacion() {
   }else {
     seccionNuevaPublicacion.style.display = "flex";
   }
+}
+
+function enviarNuevaPublicacion() {
+  var seccionNuevaPublicacion = document.getElementById("seccionNuevaPublicacion");
+
+     seccionNuevaPublicacion.style.display = "none";
+     
+
 }
