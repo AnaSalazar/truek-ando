@@ -28,8 +28,10 @@ function mostrarNuevaPublicacion() {
 
 function enviarNuevaPublicacion() {
   var seccionNuevaPublicacion = document.getElementById("seccionNuevaPublicacion");
+  var publicacionEnviada = document.getElementById("publicacionEnviada");
 
      seccionNuevaPublicacion.style.display = "none";
-     
+     publicacionEnviada.style.display = "flex";
+     setTimeout(function(){publicacionEnviada.style.display = "none";}, 1000);
 
 }
