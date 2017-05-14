@@ -7,11 +7,6 @@ nav {
   background-color: #A6BB52;
 }
 
-strong {
-  font-weight: 900;
-  color: #338B51;
-}
-
 .nav-name-items {
   display: flex;
   justify-content: flex-end;
