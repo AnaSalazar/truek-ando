@@ -1,4 +1,4 @@
-* {
-  display: flex;
-  box-sizing: content-box;
+body {
+  box-sizing: border-box;
+  margin: 0;
 }
