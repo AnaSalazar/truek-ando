@@ -33,3 +33,13 @@ nav {
   color: black;
   font-size: 20px;
 }
+
+.realizado {
+  justify-content: center;
+  background-color: green;
+  margin-left: 70%;
+  margin-right: 20%;
+  margin-top: 1%;
+  color: white;
+  border-radius: 15px;
+}
