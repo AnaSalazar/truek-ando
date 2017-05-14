@@ -29,6 +29,11 @@
 
 .reputation-container {
   display: flex;
-  flex-direction: column;
   width: 100%;
+  justify-content: center;
 }
+
+/*.stars-container, .badges-container {
+  display: flex;
+  width: 40%;
+}*/
