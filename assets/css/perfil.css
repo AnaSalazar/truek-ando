@@ -29,11 +29,24 @@
 
 .reputation-container {
   display: flex;
-  width: 100%;
   justify-content: center;
 }
 
-/*.stars-container, .badges-container {
+.stars-container, .badges-container {
   display: flex;
-  width: 40%;
-}*/
+  flex-direction: column;
+}
+
+.stars-img-container, .badges-img-container {
+  display: flex;
+  align-items: center;
+}
+
+.badge-img {
+  width: 6%;
+}
+
+.h2-title {
+  font-size: 17px;
+  font-weight: 900;
+}
