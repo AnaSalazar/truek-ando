@@ -7,12 +7,29 @@
   background-color: #FFDAAB;
 }
 
+.misposts-imgs {
+  justify-content: center;
+  align-items: center;
+}
+
 .misposts-item {
+ justify-content: center;
+ align-items: center;
  border-radius: 180px;
  padding: 15px;
- width: 15%;
+ width: 200px;
+ height: 200px;
+}
+
+#visible {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 #no-visible {
   display: none;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
